@@ -2,7 +2,7 @@ var class_s_x126x =
 [
     [ "SX126x", "class_s_x126x.html#aaca5a8fa8a3e634dd1b5b4c2bb5058d8", null ],
     [ "autoLDRO", "class_s_x126x.html#ab9ce38cfeaa36ddcc2d82b2974d7088c", null ],
-    [ "begin", "class_s_x126x.html#a1b97488c6887df2e0291bba1b852605e", null ],
+    [ "begin", "class_s_x126x.html#a936a40038e05740a528f2b53f8e17010", null ],
     [ "beginFSK", "class_s_x126x.html#a2e500e5b6044ccab8f6b19af4ffa917c", null ],
     [ "clearDio1Action", "class_s_x126x.html#a6848afe4c16a47edb3e0b342a86ecdfd", null ],
     [ "disableAddressFiltering", "class_s_x126x.html#afc3a7a42c401b6c44e00cb6c5b9696f2", null ],
@@ -12,6 +12,7 @@ var class_s_x126x =
     [ "getChannelScanResult", "class_s_x126x.html#abf1c3d6fa419a1e3ef11db63d3f46f8f", null ],
     [ "getCurrentLimit", "class_s_x126x.html#aa668babb0bd129b2facee9fd280525ab", null ],
     [ "getDataRate", "class_s_x126x.html#acbe2d75b1e2df8bcc58c4fd9d8e6e4f9", null ],
+    [ "getIrqStatus", "class_s_x126x.html#a9a9b090eddcb811ee19b595debfab1df", null ],
     [ "getMod", "class_s_x126x.html#aae1af90432c457e5bf8f8f362295399b", null ],
     [ "getPacketLength", "class_s_x126x.html#ac4ef8c8751a3c09d64e431684840c987", null ],
     [ "getRSSI", "class_s_x126x.html#a0e5f0032a91686b9673a48c908eb1925", null ],

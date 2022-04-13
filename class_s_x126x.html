@@ -116,9 +116,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aae1af90432c457e5bf8f8f362295399b"><td class="memItemLeft" align="right" valign="top"><a id="aae1af90432c457e5bf8f8f362295399b"></a>
 <a class="el" href="class_module.html">Module</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getMod</b> ()</td></tr>
 <tr class="separator:aae1af90432c457e5bf8f8f362295399b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b97488c6887df2e0291bba1b852605e"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#a1b97488c6887df2e0291bba1b852605e">begin</a> (float bw, uint8_t sf, uint8_t cr, uint8_t syncWord, uint16_t preambleLength, float tcxoVoltage, bool useRegulatorLDO=false)</td></tr>
-<tr class="memdesc:a1b97488c6887df2e0291bba1b852605e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialization method for LoRa modem.  <a href="class_s_x126x.html#a1b97488c6887df2e0291bba1b852605e">More...</a><br /></td></tr>
-<tr class="separator:a1b97488c6887df2e0291bba1b852605e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a936a40038e05740a528f2b53f8e17010"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#a936a40038e05740a528f2b53f8e17010">begin</a> (uint8_t cr, uint8_t syncWord, uint16_t preambleLength, float tcxoVoltage, bool useRegulatorLDO=false)</td></tr>
+<tr class="memdesc:a936a40038e05740a528f2b53f8e17010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialization method for LoRa modem.  <a href="class_s_x126x.html#a936a40038e05740a528f2b53f8e17010">More...</a><br /></td></tr>
+<tr class="separator:a936a40038e05740a528f2b53f8e17010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e500e5b6044ccab8f6b19af4ffa917c"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#a2e500e5b6044ccab8f6b19af4ffa917c">beginFSK</a> (float br, float freqDev, float rxBw, uint16_t preambleLength, float tcxoVoltage, bool useRegulatorLDO=false)</td></tr>
 <tr class="memdesc:a2e500e5b6044ccab8f6b19af4ffa917c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialization method for FSK modem.  <a href="class_s_x126x.html#a2e500e5b6044ccab8f6b19af4ffa917c">More...</a><br /></td></tr>
 <tr class="separator:a2e500e5b6044ccab8f6b19af4ffa917c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,6 +168,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a6b50cb78f02a3d93939437eb48489d3f"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#a6b50cb78f02a3d93939437eb48489d3f">startReceiveDutyCycleAuto</a> (uint16_t senderPreambleLength=0, uint16_t minSymbols=8)</td></tr>
 <tr class="memdesc:a6b50cb78f02a3d93939437eb48489d3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls <a class="el" href="class_s_x126x.html#adc46b6adda2d0e82e25ed1fc78274136">startReceiveDutyCycle</a> with rxPeriod and sleepPeriod set so the unit shouldn't miss any messages.  <a href="class_s_x126x.html#a6b50cb78f02a3d93939437eb48489d3f">More...</a><br /></td></tr>
 <tr class="separator:a6b50cb78f02a3d93939437eb48489d3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a9b090eddcb811ee19b595debfab1df"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#a9a9b090eddcb811ee19b595debfab1df">getIrqStatus</a> ()</td></tr>
+<tr class="memdesc:a9a9b090eddcb811ee19b595debfab1df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the current IRQ status.  <a href="class_s_x126x.html#a9a9b090eddcb811ee19b595debfab1df">More...</a><br /></td></tr>
+<tr class="separator:a9a9b090eddcb811ee19b595debfab1df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3350cbfab628956c1a456383ac7bb2b2"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#a3350cbfab628956c1a456383ac7bb2b2">readData</a> (uint8_t *data, size_t len) override</td></tr>
 <tr class="memdesc:a3350cbfab628956c1a456383ac7bb2b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads data received after calling startReceive method.  <a href="class_s_x126x.html#a3350cbfab628956c1a456383ac7bb2b2">More...</a><br /></td></tr>
 <tr class="separator:a3350cbfab628956c1a456383ac7bb2b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -424,8 +427,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 </div>
 </div>
-<a id="a1b97488c6887df2e0291bba1b852605e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b97488c6887df2e0291bba1b852605e">&#9670;&nbsp;</a></span>begin()</h2>
+<a id="a936a40038e05740a528f2b53f8e17010"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a936a40038e05740a528f2b53f8e17010">&#9670;&nbsp;</a></span>begin()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -433,18 +436,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
         <tr>
           <td class="memname">int16_t SX126x::begin </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>bw</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>sf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>cr</em>, </td>
         </tr>
@@ -483,8 +474,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <p>Initialization method for LoRa modem. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">bw</td><td>LoRa bandwidth in kHz. Allowed values are 7.8, 10.4, 15.6, 20.8, 31.25, 41.7, 62.5, 125.0, 250.0 and 500.0 kHz.</td></tr>
-    <tr><td class="paramname">sf</td><td>LoRa spreading factor. Allowed values are in range 5 to 12.</td></tr>
     <tr><td class="paramname">cr</td><td>LoRa coding rate denominator. Allowed values range from 5 to 8.</td></tr>
     <tr><td class="paramname">syncWord</td><td>1-byte LoRa sync word.</td></tr>
     <tr><td class="paramname">preambleLength</td><td>LoRa preamble length in symbols. Allowed values range from 1 to 65535.</td></tr>
@@ -599,12 +588,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </div><div class="memdoc">
 
 <p>Set explicit header mode for future reception/transmission. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">len</td><td>Payload length in bytes.</td></tr>
-  </table>
-  </dd>
-</dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__status__codes.html">Status Codes</a> </dd></dl>
 
 </div>
@@ -720,6 +703,26 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 <p>Gets effective data rate for the last transmitted packet. The value is calculated only for payload bytes. </p>
 <dl class="section return"><dt>Returns</dt><dd>Effective data rate in bps. </dd></dl>
+
+</div>
+</div>
+<a id="a9a9b090eddcb811ee19b595debfab1df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a9b090eddcb811ee19b595debfab1df">&#9670;&nbsp;</a></span>getIrqStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t SX126x::getIrqStatus </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reads the current IRQ status. </p>
+<dl class="section return"><dt>Returns</dt><dd>IRQ status bits </dd></dl>
 
 </div>
 </div>
@@ -864,6 +867,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </div><div class="memdoc">
 
 <p>Set implicit header mode for future reception/transmission. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">len</td><td>Payload length in bytes.</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__status__codes.html">Status Codes</a> </dd></dl>
 
 </div>
@@ -950,7 +959,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">str</td><td>Address of Arduino String to save the received data.</td></tr>
-    <tr><td class="paramname">len</td><td>Expected number of characters in the message.</td></tr>
+    <tr><td class="paramname">len</td><td>Expected number of characters in the message. When set to 0, the packet length will be retreived automatically. When more bytes than received are requested, only the number of bytes requested will be returned.</td></tr>
   </table>
   </dd>
 </dl>
@@ -996,7 +1005,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">data</td><td>Pointer to array to save the received binary data.</td></tr>
-    <tr><td class="paramname">len</td><td>Number of bytes that will be received. Must be known in advance for binary transmissions.</td></tr>
+    <tr><td class="paramname">len</td><td>Number of bytes that will be read. When set to 0, the packet length will be retreived automatically. When more bytes than received are requested, only the number of bytes requested will be returned.</td></tr>
   </table>
   </dd>
 </dl>
@@ -1022,7 +1031,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">data</td><td>Pointer to array to save the received binary data.</td></tr>
-    <tr><td class="paramname">len</td><td>Number of bytes that will be received. Must be known in advance for binary transmissions.</td></tr>
+    <tr><td class="paramname">len</td><td>Number of bytes that will be read. When set to 0, the packet length will be retreived automatically. When more bytes than received are requested, only the number of bytes requested will be returned.</td></tr>
   </table>
   </dd>
 </dl>
@@ -2082,7 +2091,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <p>Interrupt-driven receive method. DIO1 will be activated when full packet is received. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">timeout</td><td>Raw timeout value, expressed as multiples of 15.625 us. Defaults to RADIOLIB_SX126X_RX_TIMEOUT_INF for infinite timeout (Rx continuous mode), set to RADIOLIB_SX126X_RX_TIMEOUT_NONE for no timeout (Rx single mode).</td></tr>
+    <tr><td class="paramname">timeout</td><td>Raw timeout value, expressed as multiples of 15.625 us. Defaults to RADIOLIB_SX126X_RX_TIMEOUT_INF for infinite timeout (Rx continuous mode), set to RADIOLIB_SX126X_RX_TIMEOUT_NONE for no timeout (Rx single mode). If timeout other than infinite is set, signal will be generated on DIO1.</td></tr>
   </table>
   </dd>
 </dl>
