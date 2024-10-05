@@ -42,7 +42,12 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ]
+      [ "File List", "files.html", "files_dup" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Variables", "globals_vars.html", null ],
+        [ "Macros", "globals_defs.html", null ]
+      ] ]
     ] ]
   ] ]
 ];
@@ -50,11 +55,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_a_f_s_k_8h_source.html",
-"class_module.html#a081191402ad5c49e6c21982fc4587b77",
-"class_radio_lib_hal.html#a467356d0f1b097733da5ba99884cf354",
-"class_s_x1278.html#aa57b713988cfa224a6db2ff325052931",
-"classn_r_f24.html#a0429a9d6524005065e6fac21aaebdcbf",
-"struct_bell_modem__t.html#ac57de3660aafb52bcf1b3197380c6ce5"
+"class_l_r1120.html#a981be5384416833dcb6c09ad5be47aa6",
+"class_physical_layer.html#acb45b2342400a03a914a91d2ac7fb488",
+"class_s_x1268.html#af6b041392136b599eec57085e2067a6f",
+"class_s_x127x.html#ac23c2b384ae8611d59e10ef6a14fe7e4",
+"functions_b.html",
+"struct_l_r11x0_version_info__t.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

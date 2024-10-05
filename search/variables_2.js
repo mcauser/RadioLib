@@ -1,12 +1,15 @@
 var searchData=
 [
-  ['datarate_923',['datarate',['../struct_lo_ra_w_a_n_event__t.html#a56281d98efee007a0c03e6a6ae8a592b',1,'LoRaWANEvent_t']]],
-  ['datarates_924',['dataRates',['../struct_lo_ra_w_a_n_band__t.html#a8b518a570756048dec56bec703a0b25b',1,'LoRaWANBand_t']]],
-  ['destcallsign_925',['destCallsign',['../class_a_x25_frame.html#a7fe9805148e2dd46d163cd989473dbff',1,'AX25Frame']]],
-  ['destssid_926',['destSSID',['../class_a_x25_frame.html#af62935e56dc24bca5d2e2aeb932b63f8',1,'AX25Frame']]],
-  ['dir_927',['dir',['../struct_lo_ra_w_a_n_event__t.html#a698a1956ffafa152e7c2cada3a2a2805',1,'LoRaWANEvent_t']]],
-  ['drmax_928',['drMax',['../struct_lo_ra_w_a_n_channel__t.html#aeabadf186d7bc105f6d289e3a491412c',1,'LoRaWANChannel_t::drMax()'],['../struct_lo_ra_w_a_n_channel_span__t.html#a914d2b6f54e9c8d2841acf1d0652fd79',1,'LoRaWANChannelSpan_t::drMax()']]],
-  ['drmin_929',['drMin',['../struct_lo_ra_w_a_n_channel__t.html#abb028e93f3fe15ed6f95e5fcd8a62f53',1,'LoRaWANChannel_t::drMin()'],['../struct_lo_ra_w_a_n_channel_span__t.html#ab613b4ca3a2c99ef0aa53f8132f54535',1,'LoRaWANChannelSpan_t::drMin()']]],
-  ['dutycycle_930',['dutyCycle',['../struct_lo_ra_w_a_n_band__t.html#af960a5981e5953d09dda830ddb67de89',1,'LoRaWANBand_t']]],
-  ['dwelltimeup_931',['dwellTimeUp',['../struct_lo_ra_w_a_n_band__t.html#a097bc6dc35cf0ba5ba04fd7f88dbaca9',1,'LoRaWANBand_t']]]
+  ['cad_1113',['cad',['../union_channel_scan_config__t.html#ad9cdc4ce1a4664a12802d1e652c9e098',1,'ChannelScanConfig_t']]],
+  ['channelfreq_1114',['channelFreq',['../struct_l_r11x0_wifi_result__t.html#a520382420ad088ac1ace3754192cbfeb',1,'LR11x0WifiResult_t']]],
+  ['checkstatuscb_1115',['checkStatusCb',['../struct_module_1_1_s_p_i_config__t.html#ac1e7f50d134ec054ed2074b846f1124e',1,'Module::SPIConfig_t']]],
+  ['cid_1116',['cid',['../struct_lo_ra_w_a_n_mac_command__t.html#a79d26324cafccbae8b95927935e0d0dc',1,'LoRaWANMacCommand_t']]],
+  ['cmds_1117',['cmds',['../struct_module_1_1_s_p_i_config__t.html#a57ecca17835380862426d3cf38561185',1,'Module::SPIConfig_t']]],
+  ['codingrate_1118',['codingRate',['../struct_lo_ra_rate__t.html#ae382629257949329b2fcb01d565183df',1,'LoRaRate_t']]],
+  ['confirmed_1119',['confirmed',['../struct_lo_ra_w_a_n_event__t.html#a09079dc76b5367d23766e357d2ddb794',1,'LoRaWANEvent_t']]],
+  ['confirming_1120',['confirming',['../struct_lo_ra_w_a_n_event__t.html#a506755c4731be16d126bdef873c420f8',1,'LoRaWANEvent_t']]],
+  ['control_1121',['control',['../class_a_x25_frame.html#a5b196079b539dc417ca65dd4ad622f8f',1,'AX25Frame']]],
+  ['countrycode_1122',['countryCode',['../struct_l_r11x0_wifi_result_extended__t.html#ae9bf4bc28c72985edc131ad1b69cb06a',1,'LR11x0WifiResultExtended_t']]],
+  ['cr_1123',['cr',['../struct_lr_fhss_rate__t.html#a3eb7a2c2f4f23face4d6706aa8084c6b',1,'LrFhssRate_t']]],
+  ['currentchannel_1124',['currentChannel',['../struct_l_r11x0_wifi_result_extended__t.html#a7314104129f9ceb6d91c85578d85d252',1,'LR11x0WifiResultExtended_t']]]
 ];
